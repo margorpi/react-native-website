@@ -1,4 +1,4 @@
-444444444444444444444444444444444444444444444455544444444444444444444444444444444444444444444444444444444444444466666666666666666666---
+---
 id: getting-started
 title: 简介
 ---
@@ -51,9 +51,9 @@ export default YourApp;
 
 ## 函数式组件与 Class 组件
 
-你可以在React中使用函数式组件或Class组件。最开始只有Class组件能够使用state，但自从有了React Hooks API, 你可以为函数组件添加state和很多其它的功能。
+你可以在 React 中使用函数式组件或 Class 组件。最开始只有 Class 组件能够使用 state ，但自从有了 React Hooks API, 你可以为函数组件添加 state 和很多其它的功能。
 
-[Hooks API 是 React Native 0.59提供的新特性](https://reactnative.dev/blog/2019/03/12/releasing-react-native-059), Hooks是一种面向未来的编写React组件的方式，因此我们在本文档中优先使用函数组件，你也可以点击“Class组件”切换到Class组件代码：
+[Hooks API 是 React Native 0.59 提供的新特性](https://zh-hans.reactjs.org/docs/hooks-intro.html), Hooks 是一种面向未来的编写 React 组件的方式，因此我们在本文档中优先使用函数组件，你也可以点击“Class 组件”切换到 Class 组件代码：
 
 
 <Tabs groupId="syntax" defaultValue={constants.defaultSyntax} values={constants.syntax}>
@@ -105,27 +105,26 @@ export default HelloWorldApp;
 </TabItem>
 </Tabs>
 
-你可以在[本文档的历史版本](/versions)中找到关于Class组件的更多示例。
 
 ## 给开发者的提示
 
-学习React Native的开发者拥有不同的开发背景，你或许有很多技术经验，包括Android、iOS等等，我们在编写文档的时候努力照顾到具有不同知识背景的开发者，有些时候我们会专门针对特定的平台提供特定的讲解:
+学习 React Native 的开发者拥有不同的开发背景，你或许有很多技术经验，包括 Android、iOS 等等，我们在编写文档的时候努力照顾到具有不同知识背景的开发者，有些时候我们会专门针对特定的平台提供特定的讲解:
 
 <Tabs groupId="guide" defaultValue="web" values={constants.getDevNotesTabs(["android", "ios", "web"])}>
 
 <TabItem value="web">
 
-> Web开发者看到的内容。
+> Web 开发者看到的内容。
 
 </TabItem>
 <TabItem value="android">
 
-> Android开发者看到的内容。
+> Android 开发者看到的内容。
 
 </TabItem>
 <TabItem value="ios">
 
-> iOS开发者看到的内容。
+> iOS 开发者看到的内容。
 
 </TabItem>
 </Tabs>
@@ -136,7 +135,7 @@ export default HelloWorldApp;
 
 ---
 
-现在让我们开始学习React Native的基础知识 [核心组件与原生组件](intro-react-native-components.md).
+现在让我们开始学习 React Native 的基础知识 [核心组件与原生组件](intro-react-native-components.md).
 
 ---
 

@@ -1,4 +1,4 @@
----
+444444444444444444444444444444444444444444444455544444444444444444444444444444444444444444444444444444444444444466666666666666666666---
 id: getting-started
 title: 简介
 ---
@@ -33,7 +33,7 @@ import React from 'react';
 import { Text, View } from 'react-native';
 
 const YourApp = () => {
-  return (
+  (
     <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
       <Text>
         Try editing me! 🎉
@@ -51,9 +51,10 @@ export default YourApp;
 
 ## 函数式组件与 Class 组件
 
-With React, you can make components using either classes or functions. Originally, class components were the only components that could have state. But since the introduction of React's Hooks API, you can add state and more to function components.
+你可以在React中使用函数式组件或Class组件。最开始只有Class组件能够使用state，但自从有了React Hooks API, 你可以为函数组件添加state和很多其它的功能。
 
-[Hooks were introduced in React Native 0.59.](/blog/2019/03/12/releasing-react-native-059), and because Hooks are the future-facing way to write your React components, we wrote this introduction using function component examples. Where useful, we also cover class components under a toggle like so:
+[Hooks API 是 React Native 0.59提供的新特性](https://reactnative.dev/blog/2019/03/12/releasing-react-native-059), Hooks是一种面向未来的编写React组件的方式，因此我们在本文档中优先使用函数组件，你也可以点击“Class组件”切换到Class组件代码：
+
 
 <Tabs groupId="syntax" defaultValue={constants.defaultSyntax} values={constants.syntax}>
 <TabItem value="functional">
@@ -104,38 +105,38 @@ export default HelloWorldApp;
 </TabItem>
 </Tabs>
 
-You can find more examples of class components in [previous versions of this documentation](/versions).
+你可以在[本文档的历史版本](/versions)中找到关于Class组件的更多示例。
 
 ## 给开发者的提示
 
-People from many different development backgrounds are learning React Native. You may have experience with a range of technologies, from web to Android to iOS and more. We try to write for developers from all backgrounds. Sometimes we provide explanations specific to one platform or another like so:
+学习React Native的开发者拥有不同的开发背景，你或许有很多技术经验，包括Android、iOS等等，我们在编写文档的时候努力照顾到具有不同知识背景的开发者，有些时候我们会专门针对特定的平台提供特定的讲解:
 
 <Tabs groupId="guide" defaultValue="web" values={constants.getDevNotesTabs(["android", "ios", "web"])}>
 
 <TabItem value="web">
 
-> Web developers may be familiar with this concept.
+> Web开发者看到的内容。
 
 </TabItem>
 <TabItem value="android">
 
-> Android developers may be familiar with this concept.
+> Android开发者看到的内容。
 
 </TabItem>
 <TabItem value="ios">
 
-> iOS developers may be familiar with this concept.
+> iOS开发者看到的内容。
 
 </TabItem>
 </Tabs>
 
 ## 特殊格式
 
-Menu paths are written in bold and use carets to navigate submenus. Example: **Android Studio > Preferences**
+我们使用粗体字来描述菜单路径，使用“>”符号连接子菜单，比如： **Android Studio > Preferences**
 
 ---
 
-Now that you know how this guide works, it's time to get to know the foundation of React Native: [Native Components](intro-react-native-components.md).
+现在让我们开始学习React Native的基础知识 [核心组件与原生组件](intro-react-native-components.md).
 
 ---
 
